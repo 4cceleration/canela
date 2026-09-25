@@ -3,7 +3,7 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width"/>
 <meta name="builder" content="Stronglify"/>
-<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/367/favicon-1789774961.svg"/>
+<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/367/favicon-1790188988.svg"/>
 <title>Rollicious | DELI DELI</title>
 <meta name="description" content="Discover the crunch of our freshly baked baguettes packed with vibrant, authentic flavours."/>
 <meta name="robots" content="index"/>
@@ -18,13 +18,20 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
 <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
 <script>tailwind.config={theme:{extend:{colors:{brand:{cream:'#F7F1E4',green:'#2B3B22',orange:'#D9622B',rust:'#A8431B',gold:'#E8B84B'}},fontFamily:{oswald:['Oswald','sans-serif'],dmsans:['DM Sans','sans-serif']}}}}</script>
-<style>::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:#F7F1E4}::-webkit-scrollbar-thumb{background:#A8431B;border-radius:4px}details>summary{list-style:none}details>summary::-webkit-details-marker{display:none}:focus-visible{outline:2px solid #D9622B;outline-offset:2px;border-radius:4px}</style></head>
+<style>::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background:#F7F1E4}::-webkit-scrollbar-thumb{background:#A8431B;border-radius:4px}details>summary{list-style:none}details>summary::-webkit-details-marker{display:none}:focus-visible{outline:2px solid #D9622B;outline-offset:2px;border-radius:4px}</style>
+<style id="contrast-fix">
+ 
+details.bg-brand-orange,#visit .bg-brand-orange{background-color:#A8431B}
+details.bg-brand-orange>summary:hover{background-color:#8A3615}
+ 
+article.bg-brand-gold .text-brand-orange{color:#2B3B22}
+</style></head>
 <body class="antialiased overflow-x-hidden selection:bg-brand-rust selection:text-white bg-brand-cream text-[#0f0f0f] font-dmsans">
   
 <div id="mobile-overlay" class="fixed inset-0 bg-black/40 backdrop-blur-sm z-[100] opacity-0 pointer-events-none transition-opacity duration-300"></div>
 <div id="mobile-sidebar" class="fixed top-0 left-0 w-[80%] max-w-[320px] min-h-[100dvh] bg-brand-cream z-[101] -translate-x-full transition-transform duration-300 ease-in-out shadow-2xl flex flex-col p-6">
   <div class="flex items-center justify-between mb-12">
-    <a href="./">
+    <a href="/">
       <img src="https://placehold.co/140x32" alt="DELI DELI" class="h-9 w-auto"/>
     </a>
     <button id="mobile-close-btn" class="text-brand-green hover:text-brand-rust transition-colors">
@@ -33,20 +40,20 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
   </div>
   <nav class="flex flex-col gap-6 text-lg font-oswald tracking-wide uppercase text-brand-green">
     
-    <a href="./" class="hover:text-brand-orange transition-colors">
-      Our Menu
+    <a href="/" class="hover:text-brand-orange transition-colors">
+      Home
     </a>
     
-    <a href="page.html" class="hover:text-brand-orange transition-colors">
-      Reviews
+    <a href="/page" class="hover:text-brand-orange transition-colors">
+      About
     </a>
     
-    <a href="article.html" class="hover:text-brand-orange transition-colors">
-      FAQ
+    <a href="/blog" class="hover:text-brand-orange transition-colors">
+      Blog
     </a>
     
-    <a href="blank.html" class="hover:text-brand-orange transition-colors">
-      Visit Us
+    <a href="/contact" class="hover:text-brand-orange transition-colors">
+      Contact
     </a>
     
   </nav>
@@ -66,27 +73,27 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
     </button>
 
     
-    <a href="./" class="shrink-0 mx-auto md:mx-0">
+    <a href="/" class="shrink-0 mx-auto md:mx-0">
       <img src="https://placehold.co/140x32" alt="DELI DELI" class="h-8 w-auto"/>
     </a>
 
     
     <nav class="hidden md:flex items-center gap-8 font-oswald uppercase text-sm tracking-widest text-brand-green">
       
-      <a href="./" class="hover:text-brand-orange transition-colors">
-        Our Menu
+      <a href="/" class="hover:text-brand-orange transition-colors">
+        Home
       </a>
       
-      <a href="page.html" class="hover:text-brand-orange transition-colors">
-        Reviews
+      <a href="/page" class="hover:text-brand-orange transition-colors">
+        About
       </a>
       
-      <a href="article.html" class="hover:text-brand-orange transition-colors">
-        FAQ
+      <a href="/blog" class="hover:text-brand-orange transition-colors">
+        Blog
       </a>
       
-      <a href="blank.html" class="hover:text-brand-orange transition-colors">
-        Visit Us
+      <a href="/contact" class="hover:text-brand-orange transition-colors">
+        Contact
       </a>
       
     </nav>
@@ -117,7 +124,7 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
 
         
         <div class="relative z-10 rounded-2xl overflow-hidden border-4 border-white/10 rotate-[-2deg] hover:rotate-0 transition-transform duration-700 shadow-2xl group">
-          <img src="https://placehold.co/1600x900" alt="Indian Thali" class="w-full aspect-video object-cover contrast-110 brightness-105 group-hover:scale-105 transition-transform duration-700 ease-out"/>
+          <img src="https://media.stronglify.com/367/canela-02-1790364948.jpg" alt="Indian Thali" class="w-full aspect-video object-cover contrast-110 brightness-105 group-hover:scale-105 transition-transform duration-700 ease-out"/>
         </div>
       </div>
     </div>
@@ -145,7 +152,7 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
       
       <article class="group cursor-pointer">
         <div class="overflow-hidden rounded-2xl mb-6 shadow-md border border-black/5">
-          <img src="https://placehold.co/800x600" alt="Foto del plato" class="w-full aspect-[4/3] object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"/>
+          <img src="https://media.stronglify.com/367/canela-03-1790364950.jpg" alt="Foto del plato" class="w-full aspect-[4/3] object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"/>
         </div>
         <div class="flex items-baseline justify-between mb-2">
           <h3 class="font-oswald text-xl md:text-2xl text-brand-orange uppercase tracking-tight min-w-0">
@@ -163,7 +170,7 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
       
       <article class="group cursor-pointer">
         <div class="overflow-hidden rounded-2xl mb-6 shadow-md border border-black/5">
-          <img src="https://placehold.co/800x600" alt="Foto del plato" class="w-full aspect-[4/3] object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"/>
+          <img src="https://media.stronglify.com/367/canela-04-1790364951.jpg" alt="Foto del plato" class="w-full aspect-[4/3] object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"/>
         </div>
         <div class="flex items-baseline justify-between mb-2">
           <h3 class="font-oswald text-xl md:text-2xl text-brand-orange uppercase tracking-tight min-w-0">
@@ -181,7 +188,7 @@ fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;d
       
       <article class="group cursor-pointer">
         <div class="overflow-hidden rounded-2xl mb-6 shadow-md border border-black/5">
-          <img src="https://placehold.co/800x600" alt="Foto del plato" class="w-full aspect-[4/3] object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"/>
+          <img src="https://media.stronglify.com/367/canela-05-1790364952.jpg" alt="Foto del plato" class="w-full aspect-[4/3] object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"/>
         </div>
         <div class="flex items-baseline justify-between mb-2">
           <h3 class="font-oswald text-xl md:text-2xl text-brand-orange uppercase tracking-tight min-w-0">
